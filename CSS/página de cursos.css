@@ -1,0 +1,381 @@
+body{
+    height: 3000px;
+    background-color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+
+} 
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+:root{
+    --bgNav:#181661;
+    --textColor:#fff;
+}
+
+nav{
+ border: 2px solid var(--bgNav);
+ display: flex;
+ justify-content: space-between;
+ background-color: var(--bgNav);
+ padding: 12px 3rem;
+ align-items: center;
+ 
+ 
+}
+
+/*nav h1{
+    /*border: 2px solid green;
+    font-size: 1.9rem;
+    letter-spacing: 2px;
+    font-weight: 300px;
+    color: var(--textColor);
+    margin-right: 30rem;
+    
+
+
+}*/
+
+ #Unico a{
+    padding: 10px 2rem;
+    text-decoration: none;
+    border-radius: 18px;
+    border: 2px solid blue;
+    color: rgba(16, 16, 196, 0.566);
+    justify-content: center;
+    width: 100%;
+
+
+}
+
+#Unico a:hover{
+    background-color: blue;
+
+}
+
+nav ul{
+    border: 2px solid rgb(224, 17, 17);
+
+
+}
+
+nav ul a {
+    text-decoration: none;
+    margin: 0 6px;
+    color: var(--textColor);
+    margin-left: 1rem;
+    text-transform:capitalize; /*coloca as primeiras letras de cada palavra em maiusculo*/
+}
+
+.card-cursos{
+    /*border: 1px solid red;*/
+    display: flex;
+    margin-top: 10px;
+    gap: 20px;/*espaçamento entre os card's*/
+    justify-content: center;
+    flex-wrap: wrap;/*faz com que os card ficam um por baixo do outro*/
+    cursor: pointer;
+
+
+}
+
+.card-cursos .box-card{
+    height: 700px;
+    background-color: rgb(192, 193, 192);
+    width: 20%;
+    
+    box-shadow: 0 2px 5px 0 rgba(0,0,0, 0.16), 0 5px 15px;
+
+
+}
+.container-cursos{
+    padding: 12px 3rem;
+
+
+
+}
+
+h2{
+     text-align: center;
+     color: rgba(0, 0, 255, 0.626);
+    
+}
+
+
+
+.box-card img{
+    width: 100%;
+    height: 250px;
+    /*border-radius: 20px;*/
+}
+
+
+
+.btn a{
+    
+    padding: 12px 2rem;
+    text-decoration: none;
+    border-radius: 20px;
+    border: 2px solid blue;
+    font-weight: 600;
+
+}
+
+
+.btn{
+    justify-content: center;
+    display: flex;
+    padding: 1.2rem;
+    align-items: center;
+}
+
+.btn a:hover{
+ background-color: blue;
+
+}
+
+.Programas{
+    background-color: var(--bgNav);
+    height:190px;
+    font-size: larger;
+    text-align: center;
+    font-weight: 700;
+    text-align: center;
+    margin-right: 100px;
+    margin-left: 100px;/*trata da margem do lado esquerdo Receber Novidades*/
+
+}
+
+ h3{
+    margin:50px ;
+    color: white;
+    
+    
+}
+
+.Programas p{
+    color: white;
+    font-weight: 900;
+    font-size: smaller;
+    margin: 10px;
+
+}
+
+.btn-2 a{
+    padding: 12px 2rem; 
+    text-decoration: none;
+    border-radius: 20px;
+    border: 2px solid blue;
+    font-weight: 400;
+    width: 70px;
+    height: 30px;
+    
+}
+
+.btn-2{
+    justify-content: center;
+    padding: 1.2rem;
+    align-items: center;
+    margin: 1.5%;
+}
+
+.btn-2 a:hover{
+    background-color: blue;
+   
+}
+
+.artigo{
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+/*
+
+.artigo .box-article{
+    
+    background-color: rgb(192, 193, 192);
+    width: 20%;
+    margin-top: 90px;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0, 0.16), 0 5px 15px
+
+
+}
+
+.box-article img{
+    width: 100%;
+    height: 250px;
+    /*border-radius: 20px;
+}*/
+
+h4{
+    text-align: center;
+    color: black;
+    margin: 20px;
+    font-size: larger;
+    font-weight: 900;
+   
+}
+
+.boxPricinpal{
+
+        display: flex;
+        background-color:aliceblue;
+        box-shadow: 0 2px 5px 0 rgba(0,0,0, 0.16), 0 5px 15px;
+      /*caso eu retire o width e o heigth a box principal vai deixar de estar inline*/
+        height: 200px;
+        text-align: center;
+
+
+}
+
+.box02 img {
+
+    height: 95%;
+    margin: 5px 5px;
+    box-shadow: 0 2px 2px 0 rgba(0,0,0, 0.16), 0 5px 15px;
+
+}
+
+.box03{
+    text-align: left;
+    
+}
+
+.Descricao{
+    font-size:medium;
+    margin-top: 25px;
+    
+
+    
+}
+
+.pequeno{
+
+    font-size: x-small;
+}
+
+#continuarLendo{
+    
+    margin-top: 60px;
+}
+
+.box03 a{
+    text-decoration: none;
+    color: blue;
+}
+
+h5{
+font-size: medium;
+font-weight: 900;
+margin-top: 17px;
+
+}
+
+
+footer {
+    background-color: var(--bgNav); /* Define a cor de fundo do rodapé */
+    color: #fff; /* Define a cor do texto do rodapé como branco */
+    padding: 20px 0; /* Adiciona espaçamento acima e abaixo do rodapé */
+    text-align: center; /* Centraliza o texto no rodapé */
+    margin-top: 100px;
+  }
+  
+  .footer-container {
+    display: flex; /* Usa flexbox para alinhar os elementos horizontalmente */
+    justify-content: space-around; /* Distribui as colunas com espaçamento uniforme */
+    padding: 20px; /* Adiciona espaçamento interno ao redor do conteúdo */
+    max-width: 1200px; /* Define a largura máxima do rodapé */
+    margin: 0 auto; /* Centraliza o rodapé na página */
+    height: 100%;
+  }
+  
+  .footer-column {
+    flex: 1; /* Faz com que cada coluna ocupe um espaço igual */
+    margin: 0 15px; /* Adiciona uma margem entre as colunas */
+  }
+  
+  .footer-column h4 {
+    font-size: 18px; /* Define o tamanho da fonte para os títulos das colunas */
+    margin-bottom: 15px; /* Adiciona um espaço abaixo do título */
+    font-weight: bold; /* Deixa o título em negrito */
+    text-align: left;
+  }
+  
+  .footer-column p, .footer-column a {
+    font-size: 14px; /* Define o tamanho da fonte para os parágrafos e links */
+    color: #fff; /* Define a cor do texto como branco */
+    text-decoration: none; /* Remove o sublinhado dos links */
+  }
+  
+  
+  
+  .footer-bottom {
+    align-items: center; /* Centraliza verticalmente os itens dentro desta área */
+    padding: 20px; /* Adiciona espaçamento interno */
+  }
+  
+  .footer-bottom p {
+    margin: 0; /* Remove qualquer margem extra dos parágrafos nesta área */
+  }
+  
+  .footer-bottom span {
+    color: #ffc107; /* Define a cor do texto "RECREDIT" em amarelo */
+    font-weight: bold; /* Deixa o texto "RECREDIT" em negrito */
+    font-size: 1.2rem;
+  }
+  
+  .linkedin-icon img {
+    width: 24px; /* Define o tamanho da imagem do ícone do LinkedIn */
+  }
+
+  
+  
+  .footer-copyright {
+    margin-top: 30px; /* Adiciona uma margem superior para dar espaço ao texto final */
+    font-size: 20px; /* Define o tamanho da fonte para o texto de copyright */
+    color: white;/* Define a cor do texto de copyright como cinza claro */
+    background-color: #002437;
+    height: 60px;
+  
+  }
+
+  ul {
+    list-style-type: none; /* Remove as bolinhas (marcadores) das listas */
+    padding-left: 0; /* Remove o espaçamento padrão à esquerda */
+    margin: 0; /* Remove a margem padrão */
+  }
+
+  .footer-bottom p{
+    color: white;
+  }
+
+  .footer-copyright p{
+    color: white;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+  }
+
+  .footer-column , ul p{
+    text-align: left;
+    margin: 30px;
+    margin-left: 4px;
+  }
+
+
+
+
+
+
+
+
+
+
+
